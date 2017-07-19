@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>Podcast Encoder</title>
+  <style>
+    body {
+      background: linear-gradient(298deg, rgba(148,198,255,1) 0%, rgba(27,45,128,1) 100%);
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      font-size: 12pt;
+      margin: 1em;
+    }
+    .row {
+      display: flex;
+      width: 100%;
+    }
+    .col {
+      flex: 0 1 50%;
+    }
+    h1 {
+      margin-top: 1em;
+      font-size: 3em;
+      font-weight: 100;
+    }
+    .script-icon {
+      width: 80%;
+      max-width: 250px;
+      display: block;
+    }
+    .center {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100%;
+    }
+    button {
+      position: relative;
+      top: 0;
+      margin-top: 1.5em;
+      background: #e47171;
+      color: white;
+      border-radius: 5px;
+      padding: 1em 2em;
+      border: 0;
+      font-size: 1em;
+      box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+      transition: box-shadow .4s, top .2s;
+    }
+    button:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+      top: -2px;
+      cursor: pointer;
+    }
+    li {
+      margin: .5em 0;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <div class="row">
+    <div class="col center">
+      <img class="script-icon" src="script-icon.png">
+      <a href="PodcastEncoder.zip" target="_blank"><button>Download</button></a>
+    </div>
+    <div class="col">
+      <h1>Podcast Encoder</h1>
+      <h2></h2>
+      <p>Podcast Encoder is a simple Mac app that turns any audio or video file into an MP3 optimized for podcasting.</p>
+      <p>To encode a file, drag and drop any audio or video file onto the app's icon. You will see a notification pop up telling you that the encoding process has started. Another notification will pop up once the encoding process has finished. Encoding may take a few minutes to complete.</p>
+      <p>Podcast Encoder has three basic settings you can change. To change them, double click on the app icon. The settings are:</p>
+      <ul>
+        <li>Bit Rate: Higher bitrates offer better quality sound but increase the file size. Small file sizes are especially important for people listening through their phones.</li>
+        <li>Mono or Stereo: For voices and speech, mono is recommended because of the smaller file sizes. For music, stereo sound will give a more full, realistic sound.</li>
+        <li>Volume Normalization: Different recordings can be at different volume levels. Even in a single recording, someone may move closer or farther from the mic causing volume changes. Normalizing the volume sets the volume to a consistant, standard level throughout the recording.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
